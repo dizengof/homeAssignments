@@ -49,6 +49,7 @@ public class Array {
         for (int i = 0; i < arr.length; i++) {
             arr[i] = a + (Math.random() * (b - a));
         }
+        scan.close();
     }
 
     public static void printArray(int[] arr) {
