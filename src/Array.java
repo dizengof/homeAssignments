@@ -41,7 +41,7 @@ public class Array {
     public static void sort(int[] arr, boolean reverse) {
         for (int i = 0; i < arr.length - 1; i++) {
             for (int j = 0; j < arr.length - 1; j++) {
-                if ((reverse == false & arr[j] > arr[j + 1]) || (reverse == true & arr[j] < arr[j + 1])) {
+                if ((!reverse & arr[j] > arr[j + 1]) || (reverse & arr[j] < arr[j + 1])) {
                     int tmp = arr[j];
                     arr[j] = arr[j + 1];
                     arr[j + 1] = tmp;
@@ -53,12 +53,12 @@ public class Array {
     public static int findMax(int[] arr) {
         sort(arr, true);
         return arr[0];
-    };
+    }
 
     public static int findMin(int[] arr) {
         sort(arr, false);
         return arr[0];
-    };
+    }
 
     public static double findMid(int[] arr) {
         double sum = 0;
@@ -66,5 +66,5 @@ public class Array {
             sum += arr[i];
         }
         return sum / arr.length;
-    };
+    }
 }
