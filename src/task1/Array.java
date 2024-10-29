@@ -19,6 +19,7 @@ public class Array {
         printArray(arr);
         System.out.println("Максимальное, минимальное и среднее значение: ");
         System.out.println(findMax(arr) + " " + findMin(arr) + " " + findMid(arr));
+        scan.close();
     }
 
     public static void fillArray(int[] arr) {
@@ -33,6 +34,7 @@ public class Array {
         for (int i = 0; i < arr.length; i++) {
             arr[i] = a + (int) (Math.random() * (b - a));
         }
+        scan.close();
     }
 
     public static void fillArray(double[] arr) {
