@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a3150f2-4680-4ff1-a6db-c9ee5c1f08bf" name="Changes" comment="create class Array">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/task1/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task1/Array.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,7 +38,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/julia/Документы/java/homeAssignments",
+    "last_opened_file_path": "/home/julia/Документы/homeAssignments",
     "onboarding.tips.debug.path": "/home/julia/IdeaProjects/homeAssignments/src/Main.java"
   }
 }]]></component>

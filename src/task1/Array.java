@@ -65,7 +65,7 @@ public class Array {
 
     public static void sort(int[] arr, boolean reverse) {
         for (int i = 0; i < arr.length - 1; i++) {
-            for (int j = 0; j < arr.length - 1; j++) {
+            for (int j = 0; j < arr.length - 1 - i; j++) {
                 if ((!reverse & arr[j] > arr[j + 1]) || (reverse & arr[j] < arr[j + 1])) {
                     int tmp = arr[j];
                     arr[j] = arr[j + 1];
@@ -77,7 +77,7 @@ public class Array {
 
     public static void sort(double[] arr, boolean reverse) {
         for (int i = 0; i < arr.length - 1; i++) {
-            for (int j = 0; j < arr.length - 1; j++) {
+            for (int j = 0; j < arr.length - 1 - i; j++) {
                 if ((!reverse & arr[j] > arr[j + 1]) || (reverse & arr[j] < arr[j + 1])) {
                     double tmp = arr[j];
                     arr[j] = arr[j + 1];
