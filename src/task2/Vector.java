@@ -47,7 +47,7 @@ public class Vector {
         return result;
     }
 
-    static Vector[] generate(int N) {
+    public static Vector[] generate(int N) {
         double max = 1_000, min = -1_000;
         Vector[] result = new Vector[N];
         for (int i = 0; i < N; i++) {
