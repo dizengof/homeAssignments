@@ -48,7 +48,7 @@ public class Vector {
     }
 
     public static Vector[] generate(int N) {
-        double max = 1_000, min = -1_000;
+        double max = 100, min = -100; // задаёт границы генерации векторов
         Vector[] result = new Vector[N];
         for (int i = 0; i < N; i++) {
             Vector h = new Vector(min + (Math.random() * (max - min)),
